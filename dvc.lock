@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - path: logger_config.py
+      hash: md5
+      md5: c8f89a00b3d913edbf7dc4672cab8dda
+      size: 1077
+    - path: train.py
+      hash: md5
+      md5: 21f139890d232edb2b95dc8e37c620bb
+      size: 540
+    outs:
+    - path: logs
+      hash: md5
+      md5: 657b6e01d65da0244092d58a187ef928.dir
+      size: 283
+      nfiles: 1
